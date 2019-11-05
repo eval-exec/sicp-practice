@@ -1,3 +1,4 @@
+#!/usr/bin/sbcl --script
 (defun pascal-triangle (n)
   (dotimes (x n)
     (printLine (+ 1 x))))
